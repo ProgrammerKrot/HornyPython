@@ -1,26 +1,28 @@
-```markdown
 # HornyPython Interpreter 🔞
 
-A custom Python syntax translator that lets you write Python code using... alternative keywords. For educational purposes only.
+A **parodic custom Python dialect** that lets you write scripts using spicy alternative keywords. Built for fun, shock value, and educational exploration of language parsing.
 
-## Installation (Linux/MacOS)
+You can create your own by changing values in CONFIG file
 
-### 1. Clone the repository
+---
+
+## 🚀 Installation (Linux/macOS)
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/HornyPython.git
 cd HornyPython
 ```
 
-### 2. Install system-wide
+### 2. Install System-Wide
 ```bash
 chmod +x execute_custom_python.py
 sudo cp execute_custom_python.py /usr/local/bin/hornypy-exec
 sudo cp my_python_config.py /usr/local/bin/
 ```
 
-### 3. Register file type
+### 3. Register Custom MIME Type (Optional but Cool 😎)
 ```bash
-# Create MIME type
 mkdir -p ~/.local/share/mime/packages
 cat > ~/.local/share/mime/packages/hornypy.xml <<EOF
 <?xml version="1.0"?>
@@ -32,14 +34,15 @@ cat > ~/.local/share/mime/packages/hornypy.xml <<EOF
 </mime-info>
 EOF
 
-# Update databases
 update-mime-database ~/.local/share/mime
 ```
 
-## Usage
+---
 
-### Writing code
-Create files with `.hornypy` extension and this header:
+## 🧠 Usage
+
+### Writing HornyPython Code
+Create a script with the `.hornypy` extension and start it with this shebang:
 ```python
 #!/usr/bin/env hornypy-exec
 
@@ -47,49 +50,54 @@ sex hello():
     moan("Oh yes!")
 ```
 
-### Making files executable
+### Make Your Script Executable
 ```bash
 chmod +x your_script.hornypy
 ```
 
-### Running scripts
+### Run the Script
 ```bash
 ./your_script.hornypy
-# Or directly via:
+# Or directly:
 hornypy-exec your_script.hornypy
-```
-
-## Syntax Cheatsheet
-| Python | HornyPython |
-|--------|-------------|
-| `def`  | `sex`       |
-| `print`| `moan`      |
-| `if`   | `you`       |
-| `else` | `me`        |
-| `True` | `Yes_daddy` |
-
-## Troubleshooting
-If you get permission errors:
-```bash
-sudo chmod +x /usr/local/bin/hornypy-exec
-```
-
-If MIME type doesn't register:
-```bash
-xdg-mime query filetype test.hornypy  # Should return "application/x-hornypy"
 ```
 
 ---
 
-**Disclaimer**: This project is a parody for educational purposes. Not affiliated with Python Software Foundation.
+## 🔤 Syntax Cheatsheet
+
+| Standard Python | HornyPython |
+|-----------------|-------------|
+| `def`           | `sex`       |
+| `print`         | `moan`      |
+| `if`            | `you`       |
+| `else`          | `me`        |
+| `True`          | `Yes_daddy` |
+
+More to come. Contributions welcome 😉
+
+---
+
+## 🛠️ Troubleshooting
+
+### Permission Errors?
+```bash
+sudo chmod +x /usr/local/bin/hornypy-exec
 ```
 
-Key features:
-- Clear installation steps
-- Usage examples
-- Syntax cheatsheet
-- Troubleshooting section
-- Mobile-friendly formatting
-- Disclaimer to avoid misuse
+### MIME Type Doesn’t Work?
+Verify with:
+```bash
+xdg-mime query filetype your_script.hornypy
+# Expected: application/x-hornypy
+```
 
-You can paste this directly into your GitHub repo's `README.md` file. The code blocks will maintain proper formatting, and the table will render correctly on GitHub.
+---
+
+## ⚠️ Disclaimer
+
+This is a **parody project** intended for **educational and entertainment purposes only**. Not affiliated with the Python Software Foundation. Don’t use this in production (unless your boss is really cool).
+
+---
+
+🧪 Built with questionable taste and lots of Python ❤️
