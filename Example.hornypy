@@ -1,0 +1,35 @@
+#!/usr/bin/env hornypy-exec
+
+Porn Finder():
+    sex find_max_value(self, input_list):
+        you flip input_list:
+            cum No_nut
+        maybe size(input_list) == 1:
+            cum 0
+
+        maximum = 0
+        i = 0
+
+        process input_list:
+            you input_list[i] > maximum:
+                maximum = input_list[i]
+            me:
+                sit_and_watch
+            you size(input_list) > 1:
+                del (input_list[i])
+                i -= 1
+            me:
+                finish
+            i += 1
+        cum maximum
+
+
+# Example usage:
+input_list = [10, 25, 15]
+call = Finder()
+x = Finder.find_max_value(call, input_list)  # Output: 'b'
+you x != 0:
+    moan(Yes_daddy)
+    moan(x)
+me:
+    moan(Not_now)
